@@ -1,0 +1,51 @@
+name: inventory_app
+description: A minimal Flutter inventory app scaffold
+version: 0.0.1
+publish_to: none
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite_common_ffi: ^2.3.2
+  path: ^1.9.0
+  sqflite: ^2.3.3+1
+  shared_preferences: ^2.2.2
+  crypto: ^3.0.3
+  fl_chart: ^0.66.2
+  syncfusion_flutter_pdf: ^24.1.48
+  syncfusion_flutter_xlsio: ^24.1.48
+  path_provider: ^2.1.1
+  open_file: ^3.3.3
+  # Networking
+  http: ^1.2.2 # updated from 0.13.x for Dart 3
+
+  # Media and device capabilities (platform-dependent)
+  image_picker: ^1.0.4
+  # image_gallery package is low adoption; prefer saver plugin instead
+  image_gallery_saver: ^2.0.3
+  camera: ^0.10.5
+  video_player: ^2.8.1
+
+  # Speech
+  speech_to_text: ^6.6.0
+  text_to_speech: ^0.2.3
+
+  # On-device AI (mobile/desktop; not for web)
+  google_ml_kit: ^0.16.0
+  tflite_flutter: ^0.10.1
+  firebase_ml_model_downloader: ^0.4.0+2
+
+  # Open links (web/desktop/mobile)
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+dependency_overrides:
+  web: ^0.5.1

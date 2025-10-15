@@ -1,0 +1,4 @@
+// ملف لحفظ مفاتيح API بشكل آمن
+class ApiKeys {
+  static const String anthropicApiKey = 'YOUR_API_KEY_HERE';
+}

@@ -1,0 +1,34 @@
+# Flutter/Dart/Pub
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Visual Studio Code
+.vscode/
+
+# IntelliJ/Android Studio
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs/Temp
+*.log
+*.tmp
+
+# Platform-specific build folders (keep source directories)
+android/.gradle/
+android/app/build/
+ios/Pods/
+macos/Pods/
+linux/build/
+windows/build/
+
+# Generated scripts
+flutter_export_environment.sh
+frontend/lib/api_keys.dart
